@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/loginIcon"
+        android:icon="@drawable/icons_login_1_32"
+        android:title="@string/login"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/share"
+        android:title="@string/share" />
+
+    <item
+        android:id="@+id/setting"
+        android:title="@string/setting" />
+
+    <item
+        android:id="@+id/chats"
+        android:title="@string/chats" />
+    <item
+        android:id="@+id/more"
+        android:title="@string/more" />
+</menu>

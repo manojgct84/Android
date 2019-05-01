@@ -1,0 +1,39 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 26
+    defaultConfig {
+        applicationId "app.infogen.cs.com.retrofitandroid"
+        minSdkVersion 23
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    final RETROFIT_REST_API = '2.1.0'
+    final FIREBASE_PLAY_SERVICE = '11.0.4'
+    final APP_COMPAT_SERVICE = '26.1.0'
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation "com.android.support:appcompat-v7:$APP_COMPAT_SERVICE"
+    implementation "com.google.android.gms:play-services-maps:$FIREBASE_PLAY_SERVICE"
+    implementation "com.google.firebase:firebase-database:$FIREBASE_PLAY_SERVICE"
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.1'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
+    compile "com.squareup.retrofit2:retrofit:$RETROFIT_REST_API"
+    compile "com.squareup.retrofit2:converter-gson:$RETROFIT_REST_API"
+    compile "com.google.android.gms:play-services-location:$FIREBASE_PLAY_SERVICE"
+    compile "com.google.android.gms:play-services:$FIREBASE_PLAY_SERVICE"
+}
+
+
+apply plugin: 'com.google.gms.google-services'

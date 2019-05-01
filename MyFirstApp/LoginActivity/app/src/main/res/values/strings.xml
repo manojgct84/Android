@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">LoginActivity</string>
+    <string name="LinerLayout">LL</string>
+    <string name="RelativeLayout">RL</string>
+    <string name="Layout">Layout</string>
+    <string name="title_activity_ll">LL</string>
+    <string name="sign_up">Don\'t have an account <u><b>Sign up</b></u></string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="copyRights"></string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="login">Login</string>
+    <string name="share">Share</string>
+    <string name="mail">Mail</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="setting">Setting</string>
+    <string name="chats">Chats</string>
+    <string name="more">More</string>
+</resources>

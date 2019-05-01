@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="third">third</string>
+    <string name="second">second</string>
+    <string name="fourth">fourth</string>
+    <string name="five">five</string>
+</resources>
